@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="regression">
+	<test name="various tests">
+		<classes>
+			<class name="tests.HomeworkTestNG"></class>
+			<class name="tests.SauceTestNG"></class>
+			<class name="tests.Provider"></class>
+		</classes>
+	</test>
+</suite>
