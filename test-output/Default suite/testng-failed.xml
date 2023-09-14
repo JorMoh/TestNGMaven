@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Provider">
+      <class name="swaggerApi.PetstoreTests">
         <methods>
-          <include name="searchTest" invocation-numbers="0"/>
-          <include name="afterTest"/>
-          <include name="beforeMethod"/>
+          <include name="invalidUpdate"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tests.Provider -->
+      </class> <!-- swaggerApi.PetstoreTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
