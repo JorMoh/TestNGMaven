@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="swaggerApi.PetstoreTests">
+      <class name="swaggerApi.morePetStoreTests">
         <methods>
-          <include name="invalidUpdate"/>
+          <include name="case3"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- swaggerApi.PetstoreTests -->
+      </class> <!-- swaggerApi.morePetStoreTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,18 @@
+{
+  "id": 3465123,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "booboo",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
