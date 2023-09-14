@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-10T15:26:21 EDT" name="Default suite" finished-at="2023-09-10T15:27:37 EDT" duration-ms="76214">
+  <suite started-at="2023-09-14T15:34:44 EDT" name="Default suite" finished-at="2023-09-14T15:34:47 EDT" duration-ms="3179">
     <groups>
     </groups>
-    <test started-at="2023-09-10T15:26:21 EDT" name="Default test" finished-at="2023-09-10T15:27:37 EDT" duration-ms="76214">
-      <class name="tests.SauceTestNG">
-        <test-method is-config="true" signature="statrtup()[pri:0, instance:tests.SauceTestNG@1e392345]" started-at="2023-09-10T15:26:21 EDT" name="statrtup" finished-at="2023-09-10T15:26:22 EDT" duration-ms="502" status="PASS">
+    <test started-at="2023-09-14T15:34:44 EDT" name="Default test" finished-at="2023-09-14T15:34:47 EDT" duration-ms="3179">
+      <class name="swaggerApi.PetstoreTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:swaggerApi.PetstoreTests@61df66b6]" started-at="2023-09-14T15:34:44 EDT" name="setup" finished-at="2023-09-14T15:34:44 EDT" duration-ms="385" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statrtup -->
-        <test-method is-config="true" signature="commonSteps()[pri:0, instance:tests.SauceTestNG@1e392345]" started-at="2023-09-10T15:26:22 EDT" name="commonSteps" finished-at="2023-09-10T15:26:24 EDT" duration-ms="2198" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="addPet()[pri:0, instance:swaggerApi.PetstoreTests@61df66b6]" started-at="2023-09-14T15:34:44 EDT" name="addPet" finished-at="2023-09-14T15:34:46 EDT" duration-ms="2014" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- commonSteps -->
-        <test-method signature="invalidUserLogin()[pri:0, instance:tests.SauceTestNG@1e392345]" started-at="2023-09-10T15:26:24 EDT" name="invalidUserLogin" finished-at="2023-09-10T15:26:24 EDT" duration-ms="574" status="PASS">
+        </test-method> <!-- addPet -->
+        <test-method signature="invalidUpdate()[pri:0, instance:swaggerApi.PetstoreTests@61df66b6]" started-at="2023-09-14T15:34:46 EDT" name="invalidUpdate" finished-at="2023-09-14T15:34:47 EDT" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidUserLogin -->
-        <test-method is-config="true" signature="commonSteps()[pri:0, instance:tests.SauceTestNG@1e392345]" started-at="2023-09-10T15:26:24 EDT" name="commonSteps" finished-at="2023-09-10T15:26:25 EDT" duration-ms="378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- commonSteps -->
-        <test-method signature="lockedOutUser()[pri:0, instance:tests.SauceTestNG@1e392345]" started-at="2023-09-10T15:26:25 EDT" name="lockedOutUser" finished-at="2023-09-10T15:26:25 EDT" duration-ms="404" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lockedOutUser -->
-        <test-method is-config="true" signature="commonSteps()[pri:0, instance:tests.SauceTestNG@1e392345]" started-at="2023-09-10T15:26:25 EDT" name="commonSteps" finished-at="2023-09-10T15:26:26 EDT" duration-ms="494" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- commonSteps -->
-        <test-method signature="validUserLogin()[pri:0, instance:tests.SauceTestNG@1e392345]" started-at="2023-09-10T15:26:26 EDT" name="validUserLogin" finished-at="2023-09-10T15:26:26 EDT" duration-ms="537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validUserLogin -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:tests.SauceTestNG@1e392345]" started-at="2023-09-10T15:26:26 EDT" name="cleanup" finished-at="2023-09-10T15:27:37 EDT" duration-ms="71080" status="PASS">
+        </test-method> <!-- invalidUpdate -->
+        <test-method signature="cleanup()[pri:0, instance:swaggerApi.PetstoreTests@61df66b6]" started-at="2023-09-14T15:34:47 EDT" name="cleanup" finished-at="2023-09-14T15:34:47 EDT" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-      </class> <!-- tests.SauceTestNG -->
+        <test-method signature="findByStatus()[pri:0, instance:swaggerApi.PetstoreTests@61df66b6]" started-at="2023-09-14T15:34:47 EDT" name="findByStatus" finished-at="2023-09-14T15:34:47 EDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findByStatus -->
+        <test-method signature="updatePet()[pri:0, instance:swaggerApi.PetstoreTests@61df66b6]" started-at="2023-09-14T15:34:47 EDT" name="updatePet" finished-at="2023-09-14T15:34:47 EDT" depends-on-methods="swaggerApi.PetstoreTests.addPet" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePet -->
+        <test-method signature="getByID()[pri:0, instance:swaggerApi.PetstoreTests@61df66b6]" started-at="2023-09-14T15:34:47 EDT" name="getByID" finished-at="2023-09-14T15:34:47 EDT" depends-on-methods="swaggerApi.PetstoreTests.updatePet, swaggerApi.PetstoreTests.addPet" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByID -->
+      </class> <!-- swaggerApi.PetstoreTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -6,6 +6,8 @@
 			<class name="tests.HomeworkTestNG"></class>
 			<class name="tests.SauceTestNG"></class>
 			<class name="tests.Provider"></class>
+			<class name="tests.ProviderExcel"></class>
+			<class name="tests.doubleArrSauce"></class>
 		</classes>
 	</test>
 </suite>
