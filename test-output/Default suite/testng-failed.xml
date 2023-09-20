@@ -8,7 +8,6 @@
           <include name="startup"/>
           <include name="commonSteps"/>
           <include name="case2"/>
-          <include name="case1"/>
           <include name="cleanup"/>
         </methods>
       </class> <!-- tests.HomeworkTestNG -->
