@@ -20,7 +20,7 @@ public class DButils {
 	private ResultSet resultset;
 	private ResultSetMetaData rsmd;
 	
-	// this function accepts a sql query and gets the record.
+	// this function accepts an sql query and gets the record.
 	public List<String> selectArecord(String query){
 		List<String> list = new ArrayList<>();
 		try {
@@ -40,7 +40,7 @@ public class DButils {
 		return list;
  	}
 	
-	// This function accepts and inserts a SQL query and inserts a record.
+	// This function accepts and inserts an SQL query and inserts a record.
 	public void insertRecord(String insertQuery) {
 		try {
 			connection = DriverManager.getConnection(dbHostName, username, password);

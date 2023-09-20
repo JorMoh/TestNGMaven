@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="craterTests.DataBaseValidation">
+      <class name="tests.HomeworkTestNG">
         <methods>
-          <include name="testCase2"/>
+          <include name="startup"/>
           <include name="commonSteps"/>
+          <include name="case2"/>
+          <include name="case1"/>
           <include name="cleanup"/>
         </methods>
-      </class> <!-- craterTests.DataBaseValidation -->
+      </class> <!-- tests.HomeworkTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
