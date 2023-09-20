@@ -2,7 +2,7 @@
 
 <suite name="smoke-test">
 
-	<test name="">
+	<test name="Crater-smoke">
 
 		<classes>
 			<class name="craterTests.DataBaseValidation"></class>
