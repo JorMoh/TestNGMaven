@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="swaggerApi.morePetStoreTests">
+      <class name="craterTests.DataBaseValidation">
         <methods>
-          <include name="case3"/>
-          <include name="setup"/>
+          <include name="testCase2"/>
+          <include name="commonSteps"/>
+          <include name="cleanup"/>
         </methods>
-      </class> <!-- swaggerApi.morePetStoreTests -->
+      </class> <!-- craterTests.DataBaseValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
