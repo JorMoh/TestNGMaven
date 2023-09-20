@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-14T16:53:06 EDT" name="Default suite" finished-at="2023-09-14T16:53:09 EDT" duration-ms="2581">
+  <suite started-at="2023-09-19T17:41:31 EDT" name="Default suite" finished-at="2023-09-19T17:42:11 EDT" duration-ms="39239">
     <groups>
     </groups>
-    <test started-at="2023-09-14T16:53:06 EDT" name="Default test" finished-at="2023-09-14T16:53:09 EDT" duration-ms="2581">
-      <class name="swaggerApi.morePetStoreTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:swaggerApi.morePetStoreTests@708f5957]" started-at="2023-09-14T16:53:06 EDT" name="setup" finished-at="2023-09-14T16:53:07 EDT" duration-ms="380" status="PASS">
+    <test started-at="2023-09-19T17:41:31 EDT" name="Default test" finished-at="2023-09-19T17:42:11 EDT" duration-ms="39239">
+      <class name="craterTests.DataBaseValidation">
+        <test-method is-config="true" signature="commonSteps()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:41:31 EDT" name="commonSteps" finished-at="2023-09-19T17:41:32 EDT" duration-ms="507" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="case1()[pri:0, instance:swaggerApi.morePetStoreTests@708f5957]" started-at="2023-09-14T16:53:07 EDT" name="case1" finished-at="2023-09-14T16:53:08 EDT" duration-ms="1880" status="PASS">
+        </test-method> <!-- commonSteps -->
+        <test-method signature="testCase1()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:41:32 EDT" name="testCase1" finished-at="2023-09-19T17:41:48 EDT" duration-ms="16065" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- case1 -->
-        <test-method signature="case2()[pri:0, instance:swaggerApi.morePetStoreTests@708f5957]" started-at="2023-09-14T16:53:08 EDT" name="case2" finished-at="2023-09-14T16:53:09 EDT" duration-ms="175" status="PASS">
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="commonSteps()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:41:48 EDT" name="commonSteps" finished-at="2023-09-19T17:41:48 EDT" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- case2 -->
-        <test-method signature="case3()[pri:0, instance:swaggerApi.morePetStoreTests@708f5957]" started-at="2023-09-14T16:53:09 EDT" name="case3" finished-at="2023-09-14T16:53:09 EDT" duration-ms="118" status="PASS">
+        </test-method> <!-- commonSteps -->
+        <test-method signature="testCase2()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:41:48 EDT" name="testCase2" finished-at="2023-09-19T17:42:07 EDT" duration-ms="18818" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- case3 -->
-      </class> <!-- swaggerApi.morePetStoreTests -->
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:42:07 EDT" name="cleanup" finished-at="2023-09-19T17:42:11 EDT" duration-ms="3772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- craterTests.DataBaseValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PetStoreAPI]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ApiTests(failed)">
+    <classes>
+      <class name="swaggerApi.PetstoreTests">
+        <methods>
+          <include name="addPet"/>
+          <include name="setup"/>
+          <include name="updatePet"/>
+          <include name="getByID"/>
+        </methods>
+      </class> <!-- swaggerApi.PetstoreTests -->
+    </classes>
+  </test> <!-- ApiTests(failed) -->
+</suite> <!-- Failed suite [PetStoreAPI] -->

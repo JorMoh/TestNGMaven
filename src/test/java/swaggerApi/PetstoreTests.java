@@ -88,7 +88,7 @@ public class PetstoreTests {
 	  //then assert the status coded is 200 and the content type is a/j
 	  //then assert the category name is updated to "dogs".
 	  
-	  File requestBody =new File("./src/test/resources/TestData/updatePetAPI.json");
+	  File requestBody =new File("./src/test/resources/TestData/ApiData/updatePetAPI.json");
 	  
 	  Response response = RestAssured
 			  .given().accept(ContentType.JSON).body(requestBody).contentType("application/json")
