@@ -68,6 +68,7 @@ public class HomeworkTestNG {
 		Select select = new Select(amazon.departmentsDropdown);
 		assertEquals(select.getFirstSelectedOption().getText(), "All Departments");
 //	     select department Home & Kitchen, and search for a coffee mug.
+		Thread.sleep(10000);
 		select.selectByVisibleText("Home & Kitchen");
 		
 		amazon.homeSearchBox.sendKeys("spatula"+Keys.ENTER);

@@ -3,7 +3,7 @@
 <suite name="regression">
 	<test name="various tests">
 		<classes>
-			<class name="tests.HomeworkTestNG"></class>
+			
 			<class name="tests.SauceTestNG"></class>
 			<class name="tests.Provider"></class>
 			<class name="tests.ProviderExcel"></class>
