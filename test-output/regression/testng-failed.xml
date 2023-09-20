@@ -3,12 +3,22 @@
 <suite name="Failed suite [regression]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="various tests(failed)">
     <classes>
-      <class name="tests.NewTest">
+      <class name="tests.doubleArrSauce">
         <methods>
-          <include name="t1"/>
-          <include name="t3"/>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="cleanup"/>
         </methods>
-      </class> <!-- tests.NewTest -->
+      </class> <!-- tests.doubleArrSauce -->
+      <class name="tests.HomeworkTestNG">
+        <methods>
+          <include name="startup"/>
+          <include name="commonSteps"/>
+          <include name="case2"/>
+          <include name="case1"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- tests.HomeworkTestNG -->
     </classes>
   </test> <!-- various tests(failed) -->
 </suite> <!-- Failed suite [regression] -->

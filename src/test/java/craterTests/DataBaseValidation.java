@@ -92,7 +92,7 @@ public class DataBaseValidation {
 	public void testCase2() throws InterruptedException {
 //		  Create an item on UI.
 		common.itemsTab.click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		items.addItemBtn.click();
 		addedItem = addedItem + browser.randomNumber();
 		items.nameField.sendKeys(addedItem);

@@ -1,33 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-19T17:41:31 EDT" name="Default suite" finished-at="2023-09-19T17:42:11 EDT" duration-ms="39239">
+  <suite started-at="2023-09-19T21:24:34 EDT" name="Default suite" finished-at="2023-09-19T21:25:21 EDT" duration-ms="46640">
     <groups>
     </groups>
-    <test started-at="2023-09-19T17:41:31 EDT" name="Default test" finished-at="2023-09-19T17:42:11 EDT" duration-ms="39239">
-      <class name="craterTests.DataBaseValidation">
-        <test-method is-config="true" signature="commonSteps()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:41:31 EDT" name="commonSteps" finished-at="2023-09-19T17:41:32 EDT" duration-ms="507" status="PASS">
+    <test started-at="2023-09-19T21:24:34 EDT" name="Default test" finished-at="2023-09-19T21:25:21 EDT" duration-ms="46640">
+      <class name="tests.HomeworkTestNG">
+        <test-method is-config="true" signature="startup()[pri:0, instance:tests.HomeworkTestNG@24b52d3e]" started-at="2023-09-19T21:24:34 EDT" name="startup" finished-at="2023-09-19T21:24:35 EDT" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method is-config="true" signature="commonSteps()[pri:0, instance:tests.HomeworkTestNG@24b52d3e]" started-at="2023-09-19T21:24:35 EDT" name="commonSteps" finished-at="2023-09-19T21:24:35 EDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commonSteps -->
-        <test-method signature="testCase1()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:41:32 EDT" name="testCase1" finished-at="2023-09-19T17:41:48 EDT" duration-ms="16065" status="PASS">
+        <test-method signature="case1()[pri:0, instance:tests.HomeworkTestNG@24b52d3e]" started-at="2023-09-19T21:24:35 EDT" name="case1" finished-at="2023-09-19T21:24:43 EDT" duration-ms="7913" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: .nav-progressive-search-dropdown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.2.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230912014149, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 7280, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7b9a7aa8-92ac-4714-afaa-1784a2ac9b70
+*** Element info: {Using=css selector, value=.nav-progressive-search-dropdown}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .nav-progressive-search-dropdown
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.2.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230912014149, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 7280, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7b9a7aa8-92ac-4714-afaa-1784a2ac9b70
+*** Element info: {Using=css selector, value=.nav-progressive-search-dropdown}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
+at tests.HomeworkTestNG.case1(HomeworkTestNG.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method is-config="true" signature="commonSteps()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:41:48 EDT" name="commonSteps" finished-at="2023-09-19T17:41:48 EDT" duration-ms="18" status="PASS">
+        </test-method> <!-- case1 -->
+        <test-method is-config="true" signature="commonSteps()[pri:0, instance:tests.HomeworkTestNG@24b52d3e]" started-at="2023-09-19T21:24:43 EDT" name="commonSteps" finished-at="2023-09-19T21:24:43 EDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commonSteps -->
-        <test-method signature="testCase2()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:41:48 EDT" name="testCase2" finished-at="2023-09-19T17:42:07 EDT" duration-ms="18818" status="PASS">
+        <test-method signature="case2()[pri:0, instance:tests.HomeworkTestNG@24b52d3e]" started-at="2023-09-19T21:24:43 EDT" name="case2" finished-at="2023-09-19T21:24:47 EDT" duration-ms="3918" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <option> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.2.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230912014149, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 7280, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7b9a7aa8-92ac-4714-afaa-1784a2ac9b70]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <option> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHAMMAD', ip: '192.168.0.237', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.2.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230912014149, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.3, moz:processID: 7280, moz:profile: C:\Users\Mohammad\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7b9a7aa8-92ac-4714-afaa-1784a2ac9b70
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:116)
+at tests.HomeworkTestNG.case2(HomeworkTestNG.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:craterTests.DataBaseValidation@15deb1dc]" started-at="2023-09-19T17:42:07 EDT" name="cleanup" finished-at="2023-09-19T17:42:11 EDT" duration-ms="3772" status="PASS">
+        </test-method> <!-- case2 -->
+        <test-method is-config="true" signature="commonSteps()[pri:0, instance:tests.HomeworkTestNG@24b52d3e]" started-at="2023-09-19T21:24:47 EDT" name="commonSteps" finished-at="2023-09-19T21:24:47 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonSteps -->
+        <test-method signature="case3()[pri:0, instance:tests.HomeworkTestNG@24b52d3e]" started-at="2023-09-19T21:24:47 EDT" name="case3" finished-at="2023-09-19T21:25:13 EDT" duration-ms="25947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case3 -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:tests.HomeworkTestNG@24b52d3e]" started-at="2023-09-19T21:25:13 EDT" name="cleanup" finished-at="2023-09-19T21:25:21 EDT" duration-ms="7982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-      </class> <!-- craterTests.DataBaseValidation -->
+      </class> <!-- tests.HomeworkTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
